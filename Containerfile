@@ -1,6 +1,6 @@
 FROM quay.io/ceph/ceph:v19.2.3
 
-ARG GANESHA_REPO_BASEURL="https://buildlogs.centos.org/centos/\$releasever-stream/storage/\$basearch/nfsganesha-7/"
+ARG GANESHA_REPO_BASEURL="https://buildlogs.centos.org/centos/\$releasever-stream/storage/\$basearch/nfsganesha-9/"
 
 # Add NFS-Ganesha repo
 RUN \
