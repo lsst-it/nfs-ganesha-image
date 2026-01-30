@@ -1,4 +1,4 @@
-FROM quay.io/ceph/ceph:v18.2.7
+FROM quay.io/ceph/ceph:v19.2.3
 
 ARG GANESHA_REPO_BASEURL="https://buildlogs.centos.org/centos/\$releasever-stream/storage/\$basearch/nfsganesha-7/"
 
